@@ -1,0 +1,292 @@
+@font-face {
+  font-family: 'Avenir Next';
+  src: url("http://www.yoursite.com/fonts/Avenir_Next.otf"); /* File to be stored at your site */
+  }
+
+* {
+	font-family: "Avenir Next";
+	color:white;
+	font-style:lighter;
+}
+
+header {
+	background-color:black;
+}
+
+#navbar-ish{
+	color: gray;
+	font-weight: normal;
+	background-color: transparent;
+	border-radius:0px;
+	border:0;
+	box-sizing: border-box;
+}
+
+#name {
+	font-weight: lighter;
+	font-size: 30px;
+	margin: 0px 0px 0px 0px;
+	float:left;
+	color: #FFF;
+}
+
+.navbar-brand a:hover, .navbar-brand a:focus {
+	text-decoration: none;
+	color: #FFF;
+}
+
+
+#homepic {
+	-webkit-filter: brightness(50%);
+	width: 100%;
+	height: 690px;
+	z-index: 100;
+}
+
+
+.homepage {
+	display: block;
+	position: relative;
+}
+
+.homepage > h2 {
+	font-weight:lighter;
+	color:white;
+}
+
+.homepage > h2:nth-child(2) {
+	position: absolute;
+	top:175px;
+	right:23%;
+}
+
+.homepage > h2:nth-child(3) {
+	position: absolute;
+	top:275px;
+	right:17.5%;
+}
+
+.homepage > h2:nth-child(4) {
+	position: absolute;
+	top:375px;
+	right:7%;
+}
+
+p {
+	display: block;
+	text-align: justify
+}
+
+#nav-items a {
+	color: #FFF;
+	font-family: "Avenir Next"; 
+	font-weight: lighter;
+}
+
+#nav-items { 
+	float:right;
+	display:block;
+    text-align:center;
+ }
+
+
+#nav-items a:hover, #nav-items a:focus{
+	background-color: #000;  
+}
+
+
+/*** The Hompage ends here ***/
+
+/*** About Me Page starts here ***/
+#propic {
+	border-width: 2px; 
+	border-color: black;
+	border-right-width: 4px;
+	width: 40%;
+	height:5%;
+	margin-top:10%;
+}
+
+#page1 {
+	color:#FFF;
+	width: 100%;
+	background-image: url("img/cmu2.jpg");
+	background-size:100%;
+	min-height: 610px;
+
+}
+
+
+#quote {
+	font-family: 'Lato';
+	font-weight: lighter;
+	font-size: 1.8em;
+}
+
+#text-box {
+	float:right;
+	background: rgba(0,51,102,.4);
+	margin-top: 10%;
+	height:35%;
+
+}
+
+
+#page2 {
+	background-image: url("img/projects.jpg");
+	background-size: 100%;
+	min-height: 690px;
+	width: 100%;
+
+}
+
+#page2 > .container > #projs{ 
+	margin-top: 10%;
+	margin-left: 11%;
+}
+
+#projs { 
+	height: 500px;
+	background: rgba(255,255,255,.5);
+}
+
+#projs > h3 {
+	font-size: 18px; 
+	font-weight: lighter;
+
+}
+
+#baymax { 
+	width: 100%;
+	height: 200px;
+	margin-top: 15px;
+}
+
+
+
+#page3 {
+	background-color: #192B40;
+	width: 100%;
+ }
+
+#page3 > div > p {
+	margin-top: 7%;
+	margin-bottom: 3%;
+	font-size: 1.3em;
+}
+#icon { 
+	display: inline;
+}
+
+th {
+	padding: 10px;
+}
+
+th { 
+	align-content: center;
+}
+
+td > h3 > .glyphicon {
+	font-size: 1.7em;
+	margin-bottom: 27%;
+	margin-top: 30%;
+}
+
+.uniformImgSize { 
+	height: 200px;
+	width: 200px;
+	margin-right: 150px;
+	display: block;
+	margin-bottom: 5%;
+ }
+
+.sectionHeaders {
+	vertical-align: baseline;
+	margin-bottom: 12%;
+}
+
+.topics {
+	font-weight:lighter;
+	font-size: 1.7em;
+	margin-top:10%;
+}
+
+#heading {
+	font-size: 2.0em;
+	font-weight: lighter;
+}
+
+
+
+
+
+#page4 {
+	width:100%;
+	background-color: #99A682;
+}
+
+
+#page4 > .container > div { 
+	height: 400px;
+	margin-right: 4%;
+	margin-top: 9%;
+	margin-left:4%;
+	font-family: 'Josefin Sans'; 
+ }
+
+ #contactme {
+ 	margin-top: 7%;
+ 	font-family: 'Dancing Script';
+ 	font-size: 59px;
+ 	line-height: 60px;
+ }
+ 
+
+ #logos {
+ 	width:150px;
+ 	height:150px;
+ }
+
+ #git {
+ 	width: 165px;
+ 	height: 165px;
+ }
+
+#mail { 
+	margin-top:6%;
+	width: 150px;
+	height: 150px;
+ }
+
+#mailtext {
+	padding-top:3%;
+}
+
+#fb-text {
+	padding-top: 9%;
+}
+
+#page4 > div > div > a:hover, #page4 > div > div > a:focus{
+	text-decoration: none;
+}
+
+.collapse-navbar-collapse{
+	background-color: transparent;
+}
+
+ul > li{ 
+	font-size: 16px;
+ }
+
+
+footer {
+	background-color: #2B2B2B;
+	height: 40px;
+}
+
+footer > p {
+	font-family: perpetua; 
+	font-size: 25px;
+	font-style: italic;
+	margin: 0px;
+}
