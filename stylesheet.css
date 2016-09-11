@@ -798,6 +798,7 @@ p {
 #projs { 
 	height: 520px;
 	background: rgba(255,255,255,.5);
+	font-size: .9em;
 }
 
 #projs > h3 {
@@ -843,9 +844,9 @@ td > h3 > .glyphicon {
 }
 
 .uniformImgSize { 
-	height: 200px;
-	width: 200px;
-	margin-right: 150px;
+	height: 120px;
+	width: 120px;
+	margin-right: 3%;
 	display: block;
 	margin-bottom: 5%;
  }
@@ -853,16 +854,17 @@ td > h3 > .glyphicon {
 .sectionHeaders {
 	vertical-align: baseline;
 	margin-bottom: 12%;
+	font-size: 1.3em;
 }
 
 .topics {
 	font-weight:lighter;
-	font-size: 1.7em;
+	font-size: .9em;
 	margin-top:10%;
 }
 
 #heading {
-	font-size: 2.0em;
+	font-size: 1.0em;
 	font-weight: lighter;
 	margin-top: 5%;
 }
@@ -928,7 +930,7 @@ td > h3 > .glyphicon {
 }
 
 ul > li{ 
-	font-size: 16px;
+	font-size: .9em;
  }
 
 
