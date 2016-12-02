@@ -157,7 +157,6 @@ p {
 	background-image: url("img/projects.jpg");
 	background-size: 100%;
 	min-height: 690px;
-	width: 100%;
 
 }
 
@@ -471,7 +470,6 @@ p {
 	background-image: url("img/projects.jpg");
 	background-size: 100%;
 	min-height: 690px;
-	width: 100%;
 
 }
 
@@ -788,8 +786,6 @@ p {
 	background-image: url("img/projects.jpg");
 	background-size: 100%;
 	min-height: 690px;
-	width: 100%;
-
 }
 
 #page2 > .container > #projs{ 
@@ -799,9 +795,9 @@ p {
 }
 
 #projs { 
-	height: 520px;
+	height: 55%;
 	background: rgba(255,255,255,.5);
-	font-size: .9em;
+	font-size: 1.0em;
 }
 
 #projs > h3 {
